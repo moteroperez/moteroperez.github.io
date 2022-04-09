@@ -13,9 +13,9 @@
 .title-text {
     color: #fff;
     text-align: center;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", "Hoefler Text", Georgia, "Lucida Bright", Cambria, Times, "Times New Roman", serif;
+    font-size: 1.8rem;
+    line-height: 1.6;
 }
 
 .center {
@@ -30,24 +30,14 @@
     border-top: solid 1px #eff0f1;
 }
 
-/*
-.btn {
-    display: block;
-    box-sizing: border-box;
-    margin-bottom: 1rem;
-    background-color: rgba(255,255,255,.08);
-    border-color: rgba(255,255,255,.2);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: .3rem;
-    transition: color .2s,background-color .2s,border-color .2s;
-} */
+/* Buttons */
 
 .transparent-btn {
+    border-color:rgba(255,255,255,.2);
+    border-style:solid;
+    border-width:1px;
     border-radius: .3rem;
-    border-width: 6px;
-    border-color: #282828;
-    color: white;
+    color:rgba(255,255,255,.7);
     background-color:rgba(255,255,255,.08);
     padding: 15px 32px;
     text-align: center;
@@ -56,31 +46,22 @@
     font-size: 16px;
     font-family: Arial;
     transition-duration: 0.4s;
+    transition:color .2s,background-color .2s,border-color .2s
     -webkit-transition-duration: 0.4s;
 }
 
 .transparent-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #222842;
-    background-color: #4CAF50; /* Green */
-    border-radius: .3rem;
-    border-width: 6px;
-    border-color: #282828;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: Arial;
+    color:rgba(255,255,255,.8);
+    background-color:rgba(255,255,255,.2);
+    text-decoration:none;
+    border-color:rgba(255,255,255,.3)
 }
 
 .highlight-btn {
     border-radius: .3rem;
-    border-width: 6px;
-    border-color: #202640;
-    color: white;
-    background-color: #282828;
+    color: white; /* Text color */
+    background-color: #44A446;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -93,11 +74,9 @@
 
 .highlight-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #4CAF50;
     border-radius: .3rem;
-    border-width: 6px;
-    border-color: #282828;
-    color: white;
+    background-color: #4CAF50;
+    color: white; /* Text color */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -108,9 +87,7 @@
 
 .normal-btn {
     border-radius: .3rem;
-    border-width: 6px;
-    border-color: #282828;
-    color: white;
+    color: white; /* Text color */
     background-color: #282828;
     padding: 15px 32px;
     text-align: center;
@@ -124,11 +101,9 @@
 
 .normal-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #202846;
     border-radius: .3rem;
-    border-width: 6px;
-    border-color: #282828;
-    color: white;
+    background-color: #202846;
+    color: white; /* Text color */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
