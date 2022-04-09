@@ -2,4 +2,4 @@
 *.yml linguist-language=YAML
 
 *.md linguist-detectable=true
-*.md linguist-language=Markdown
+*.md linguist-language=MD
