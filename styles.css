@@ -1,1 +1,37 @@
+div {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+div {
+  background-color: yellow;
+  color: red;
+  all: initial;
+}
+
+input[type=checkbox] {
+  accent-color: red;
+}
+
+input[type=radio] {
+  accent-color: green;
+}
+
+input[type=range] {
+  accent-color: rgb(0, 0, 255);
+}
+
+progress {
+  accent-color: hsl(39, 100%, 50%);
+}
+
 body {background-color: coral;}
