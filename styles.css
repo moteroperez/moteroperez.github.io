@@ -1,4 +1,6 @@
 .page-header {
+    width: 100%;
+    box-sizing: border-box;
     font-family:sans-serif;
     text-align: center;
     background-image: linear-gradient(120deg, #155799, #159957);
@@ -10,6 +12,8 @@
 }
 
 .title-text {
+    color: #fff;
+    text-align: center;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
