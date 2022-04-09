@@ -1,4 +1,4 @@
-# Bases
+# Rust 
 
 Esta es una pequeña guía sobre el lenguaje de programación rust. Está basada en la [guía oficial de rust](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html) y sigue mucha de su estructura y contenidos. Como pequeña introducción al lenguaje en si, se trata de un lenguaje compilado y que aplica los paradigmas tanto funcionales como de orientación a objetos. Es relativamente nuevo, pero esta ganando fama rápidamente, por lo que es muy recomendable empezar a aprenderlo ahora.
 
