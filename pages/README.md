@@ -1,3 +1,3 @@
 # Index of HTML built Pages
 
-Here secondary pages will be included
+[Learn rust](the-rust-programming-language)
