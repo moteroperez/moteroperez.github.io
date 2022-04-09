@@ -1,9 +1,18 @@
-html {
+.page-header {
     font-family:sans-serif;
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%;
     text-align: center;
     background-image: linear-gradient(120deg, #155799, #159957);
+    background-color: #159957;
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+}
+
+.title-text {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .center {
