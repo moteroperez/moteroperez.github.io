@@ -1,8 +1,26 @@
-.page-header {
-    font-family:sans-serif;
+/* Global */
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #fff;
     text-align: center;
-/*    background-image: linear-gradient(120deg, #155799, #159957); */
-    background: linear-gradient(120deg,#5c258d ,#4389a2);
+    font-size: 4.0rem;
+    line-height: 0.8;
+}
+
+h2 {
+    text-align: left;
+    text-decoration:none;
+    font-size: 1.8rem;
+    color: #159957;
+}
+
+.page-header {
+    text-align: center;
+    background-image: linear-gradient(120deg, #155799, #159957);
+  /*  background: linear-gradient(120deg,#5c258d ,#4389a2); */
     background-color: #159957;
     padding-top: 3rem;
     padding-right: 4rem;
@@ -10,44 +28,72 @@
     padding-left: 4rem;
 }
 
-.title-text {
-    color: #fff;
-    text-align: center;
-    font-family: Palatino, "Palatino Linotype", "Book Antiqua", "Hoefler Text", Georgia, "Lucida Bright", Cambria, Times, "Times New Roman", serif;
-    font-size: 1.8rem;
-    line-height: 1.6;
+.center {
+    float: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 2px;
 }
 
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+.box {
+    padding-top: 0.6rem;
+    paddin-bottom: 0.6rem;
 }
 
 .paragraph {
-    padding-top: 2rem;
-    margin-top: 2rem;
+    color: #606c71;
+    text-align: center;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    /*margin-top: 2rem;*/
+    line-height: 1.6;
     border-top: solid 1px #eff0f1;
 }
 
+.footer {
+    background: #0C4B33;
+}
+
 /* Buttons */
+
+.sided-btn {
+    color: white;
+    background-color: #41cd52;
+    padding: 0.7rem 1.1rem;
+    clip-path: polygon(9px 0%,100% 0%,100% calc(100% - 9px),calc(100% - 9px) 100%,0% 100%,0% 9px,9px 0%);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+.sided-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #36a832;
+    padding: 0.6rem 1.0rem;
+    overflow: visible;
+}
 
 .transparent-btn {
     border-color:rgba(255,255,255,.2);
     border-style:solid;
     border-width:1px;
     border-radius: .3rem;
+    display: inline-block;
+    box-sizing: border-box;
     color:rgba(255,255,255,.7);
     background-color:rgba(255,255,255,.08);
-    padding: 15px 32px;
+    padding: 0.7rem 1.1rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    line-height: 1.9;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: Arial;
-    transition-duration: 0.4s;
+    font-size: 0.9rem;
+    transition-duration: 0.3s;
     transition:color .2s,background-color .2s,border-color .2s
-    -webkit-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.3s;
 }
 
 .transparent-btn:hover {
@@ -61,15 +107,16 @@
 .highlight-btn {
     border-radius: .3rem;
     color: white; /* Text color */
-    background-color: #44A446;
+    background-color: #209620;
     padding: 15px 32px;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-family: Arial;
-    transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s; /* browsers using webkit - safari, min, surf... */
+    font-size: 0.9rem;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* browsers using webkit - safari, min, surf... */
 }
 
 .highlight-btn:hover {
@@ -81,33 +128,32 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-family: Arial;
+    font-size: 0.9rem;
 }
 
 .normal-btn {
     border-radius: .3rem;
     color: white; /* Text color */
-    background-color: #282828;
+    background-color: #202846;
     padding: 15px 32px;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-family: Arial;
-    transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s; /* browsers using webkit - safari, min, surf... */
+    font-size: 0.9rem;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* browsers using webkit - safari, min, surf... */
 }
 
 .normal-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: .3rem;
-    background-color: #202846;
+    background-color: #000240;
     color: white; /* Text color */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-family: Arial;
+    font-size: 0.9rem;
 }
